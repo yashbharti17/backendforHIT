@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const { login } = require("../controllers/authController");
+const { login } = require("../Controllers/authControllers");
 
 // Debugging: Log when the login route is hit
 router.post("/login", (req, res, next) => {
